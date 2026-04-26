@@ -585,7 +585,8 @@ a {
 }
 .modal-contact-icon {
     position: absolute;
-    stroke: #212121;
+    stroke: #2E2F42;
+    fill: #2E2F42;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
@@ -594,8 +595,11 @@ a {
             stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .accept-box{
-    margin-top: 16px;
+    margin-top: 0;
     margin-bottom: 24px;
+}
+.modal-icon-wrapper:last-of-type {
+    margin-bottom: 16px;
 }
 .form-label {
     display: inline-flex;

@@ -420,13 +420,10 @@ a {
 .container-footer{
     display: flex;
     align-items: baseline;
-    /* gap: 120px; */
-}
-.container-footer>*:not(:last-child) {
-    margin-right: 120px;
+    gap: 120px;
 }
 .container-footer> :nth-child(2) {
-    margin-right: 80px;
+   margin-right: auto;
 }
 .modal-overlay{
     position: fixed;
@@ -704,8 +701,4 @@ a {
 .accept:checked+.form-label .custom-checkbox {
     background-color: #404BBF;
     border-color: #404BBF;
-}
-
-.subscribe-container{
-    margin-left: auto;
 }

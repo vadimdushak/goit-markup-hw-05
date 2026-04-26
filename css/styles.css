@@ -397,7 +397,6 @@ a {
 }
 .footer-content{
     max-width: 264px;
-    margin-right: 120px;
 
 }
 .contacts-footer-list{
@@ -420,7 +419,9 @@ a {
 .container-footer{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+}
+.container-footer> :first-child {
+    margin-right: 120px;
 }
 .container-footer> :nth-child(2) {
    margin-right: auto;

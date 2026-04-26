@@ -397,6 +397,7 @@ a {
 }
 .footer-content{
     max-width: 264px;
+    margin-right: 120px;
 
 }
 .contacts-footer-list{
@@ -703,4 +704,8 @@ a {
 .accept:checked+.form-label .custom-checkbox {
     background-color: #404BBF;
     border-color: #404BBF;
+}
+
+.subscribe-container{
+    margin-left: auto;
 }

@@ -539,28 +539,35 @@
             </li>
           </ul>
         </div>
-        <form class="feadback">
+        <div class="subscribe-container">
           <p class="subscribe-title">Subscribe</p>
-          <div class="subscribe-row">
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              class="subscribe-email"
-            />
-            <button type="submit" class="subscribe-btn">
-              Subscribe
-              <svg width="24" height="24" class="icon-icon-send">
-                <use href="./images/icons.svg#icon-icon-send"></use>
-              </svg>
-            </button>
-          </div>
-        </form>
+          <form class="subscribe-form">
+            <div class="subscribe-row">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="subscribe-email"
+              />
+              <button type="submit" class="subscribe-btn">
+                Subscribe
+                <svg width="24" height="24" class="icon-icon-send">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="modal-overlay">
-      <div class="modal">
-        <button type="button" class="modal-close-button">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Contact form"
+      >
+        <button type="button" class="modal-close-button" aria-label="Close">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>

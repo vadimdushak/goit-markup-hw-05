@@ -438,9 +438,9 @@ a {
     justify-content: center;
     align-items: center;
     background-color: rgba(46, 47, 66, 0.4);
-    opacity: 0;
+    /* opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms;
 } 
 .modal-overlay.is-open {
@@ -538,9 +538,10 @@ a {
     padding: 16px 32px;
     width: 169px;
     height: 56px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
     color: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .button-submit:active {
@@ -578,8 +579,7 @@ a {
     outline: none;
 }
 
-.modal-icon-wrapper,
-.modal-textarea{
+.modal-icon-wrapper{
     position: relative;
     margin-bottom: 8px;
 }
@@ -632,6 +632,10 @@ a {
     gap: 16px;
 }
 .subscribe-email{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
     background-color: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 4px;

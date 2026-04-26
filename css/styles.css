@@ -466,7 +466,7 @@ a {
 .modal-close-button{
     position: absolute;
     top: 24px;
-    right: 24x;
+    right: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -475,13 +475,13 @@ a {
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color:#E7E9FC;
-    background-color: #E7E9FC;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-button:hover,
 .modal-close-button:focus{
-    fill: #404BBF;
+    background-color: #404BBF;
+    /* fill: #404BBF; */
 }
 .modal-close-button:hover .modal-close-icon,
 .modal-close-button:focus .modal-close-icon {
@@ -544,6 +544,10 @@ a {
 .button-submit:active {
     background-color: #404BBF;
 }
+.button-submit:hover,
+.button-submit:focus {
+    background-color: #404BBF;
+}
 .modal-textarea{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -599,8 +603,6 @@ a {
 .check-icon {
     display: none;
     fill: #F4F4FD;
-    width: 12px;
-    height: 12px;
 }
 .accept:checked+.form-label .custom-checkbox .check-icon {
     display: block;
@@ -649,7 +651,7 @@ a {
     flex-wrap: wrap;
     justify-content: center; 
     gap: 24px;
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 .subscribe-btn {
     display: flex;
@@ -684,6 +686,6 @@ a {
     white-space: nowrap;
 }
 .accept:checked+.form-label .custom-checkbox {
-    background-color: #4D5AE5;
-    border-color: #4D5AE5;
+    background-color: #404BBF;
+    border-color: #404BBF;
 }

@@ -438,9 +438,9 @@ a {
     justify-content: center;
     align-items: center;
     background-color: rgba(46, 47, 66, 0.4);
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms;
 } 
 .modal-overlay.is-open {
@@ -594,6 +594,7 @@ a {
             stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .accept-box{
+    margin-top: 16px;
     margin-bottom: 24px;
 }
 .form-label {

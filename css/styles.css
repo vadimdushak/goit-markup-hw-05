@@ -418,6 +418,7 @@ a {
 
 .container-footer{
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 .container-footer> :first-child {
@@ -541,6 +542,7 @@ a {
     background-color: #4D5AE5;
     color: #FFFFFF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 
 }
 .button-submit:active {
@@ -663,6 +665,7 @@ a {
 }
 .subscribe-row{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 24px;
 }
